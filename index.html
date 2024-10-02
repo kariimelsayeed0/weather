@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="#">Weather <i class="fa fa-solid fa-cloud"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">photos</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-white" href="https://routeweather.netlify.app/contact">contact</a>
+              </li>
+              
+             
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+
+      <section class="py-5">
+        <form action="" id="form">
+            <div class="w-50 d-flex mx-auto">
+            <input type="search" name="search" id="search" placeholder="find your location" class="form-control">
+            <button class="btn bg-primary" id="btn">Find</button>
+        </div>
+        </form>
+      <div class="container my-5">
+        <div class="row ">
+          <div class="card col-md-4 soso">
+            <p class="seif" id="city">cairo</p>
+            <div class="d-flex justify-content-center gap-3">
+            <h1 id="temp">35oC</h1>
+          </div>
+          <p id="state">sunny</p>
+          <div class="d-flex justify-content-between">
+            <span class="umb" id="umb"><i class="fa-solid fa-umbrella"></i> 20%</span>
+            <span id="wind"><i class="fa-solid fa-wind"></i> 15kmh</span>
+            <span id="comp"><i class="fa-solid fa-compass"></i> East</span>
+          </div>
+          </div>
+          <div class="card col-md-4 lolo text-center  d-flex flex-column justify-content-center ">
+            <span id="date"></span>
+            <i id="icon-2" class="fa-solid fa-cloud"></i>
+            <h3 id="temp-2">34oC</h3>
+            <span id="temp-3">21</span>
+            <span id="state-2" class="text-primary">Moderate rain</span>
+          </div>
+          <div class="card col-md-4 text-center soso  d-flex flex-column justify-content-center">
+            <span id="date-2"></span>
+            <i id="icon-3" class="fa-solid fa-cloud"></i>
+            <h3 id="temp-4">34oC</h3>
+            <span id="temp-5">21</span>
+            <span id="state-3" class="text-primary">sunny</span>
+          </div>
+        </div>
+      </div>
+      
+
+      </section>
+      <footer class="d-flex  ">
+        
+        <div class="w-25"></div>
+        <form  action="#" class=" d-flex w-50 gap-3 mx-5 my-5 ">
+        <input class="form-control" type="email" name="email" id="email" placeholder="Enter your Email Subscribe...">
+        <input type="submit" name="submit" id="submit" value="Subscribe" class="btn bg-primary rounded-pill">
+      </form >
+      <div class="social-links my-5 >
+        <span href=""></span>
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-google"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+      
+      </footer>
+      
+ <script src="./Js/index.js"></script>   
+</body>
+</html>
